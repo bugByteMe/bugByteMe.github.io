@@ -5,7 +5,14 @@ nav:
     - 📆 最近更新: recent.md
     # - 🌈 颜色主题 & 夜间模式: 主页/theme.md
   - ADS:
-    - Lec1: ads/Lec01.md
+    - AVL/Splay: ads/Lec01.md
+    - RB Tree & B+Tree: ads/Lec02.md
+    - Inverted Index: ads/Lec03.md
+    - Leftist Heap & Skew Heap: ads/Lec04.md
+    - Bonimial Heap & Fibonacci Heap: ads/Lec05.md
+    - BackTracking: ads/Lec06.md
+    - Divide and Conquer: ads/Lec07.md
+    - NP Completeness: ads/Lec10.md
     - HomeWorks: ads/HWs.md
   - Security:
     - Assembly (8086): asm/review.md
@@ -111,7 +118,7 @@ nav:
   
 site_name: jrguo的代码空间
 site_url: https://bugbyteme.github.io/
-repo_name: xuan-insr/咸鱼暄的代码空间
+repo_name: bugByteMe/jrguo的代码空间
 repo_url: https://github.com/bugByteMe/bugbyteme.github.io
 
 theme:
@@ -119,7 +126,7 @@ theme:
   logo: logo.ico
   favicon: logo.ico
   features:
-    - navigation.tabs # 一级导航在横着的导航栏
+    # - navigation.tabs # 一级导航在横着的导航栏
     - content.code.annotate # 可以在代码块中增添点击展示的注释，参见 https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
     # - navigation.tracking # 地址栏中的 URL 会随当前位置变化为对应小节的 URL
     - navigation.indexes # 将 index 页面直接附到小节名上
