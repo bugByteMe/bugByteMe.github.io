@@ -7,6 +7,15 @@ nav:
   - ADS:
     - Lec1: ads/Lec01.md
     - HomeWorks: ads/HWs.md
+  - Security:
+    - Assembly (8086): asm/review.md
+    - Reverse Engineering (16 bit):
+      - Windows EXE: ReverseEngineering/Windows EXE.md
+      - DOS EXE: ReverseEngineering/DOS EXE.md
+      - 脱壳: ReverseEngineering/soft-ice 脱壳.md
+      - soft-ice: ReverseEngineering/Soft-ice commands
+    - Cytography: cytography/review.md
+
   - C++:
     - cpp/cpp_restart/index.md
     - 网课 slides 与随材:
