@@ -4,6 +4,9 @@ nav:
     - ❤️ 关于我: 主页/about.md
     - 📆 最近更新: recent.md
     # - 🌈 颜色主题 & 夜间模式: 主页/theme.md
+  - ADS:
+    - Lec1: ads/Lec01.md
+    - HomeWorks: ads/HWs.md
   - C++:
     - cpp/cpp_restart/index.md
     - 网课 slides 与随材:
@@ -67,83 +70,7 @@ nav:
     - 快速入门 C++ 写题: cpp/cpp_for_contests.md
     - C++ 知识补充:
       - 理解 STL —— 迭代器与函数对象: cpp/理解 STL - 迭代器与函数对象.md
-  - 新的技术积累！:
-    - 通过造轮子学习 git！: 
-      - git/index.md
-      - 录播笔记:
-        - git/notes/index.md
-        - Post 1: git/notes/1.md
-        - Post 2: git/notes/2.md
-      - 0 写在前面: git/0_preface.md
-      - 1 构建框架: git/1_framework.md
-      - 2 初始化仓库: git/2_init.md
-      - 3 对象存储: git/3_obj_storage.md
-      - 4 暂存区: git/4_index.md
-    - Bash:
-      - bash/index.md
-    - 咸鱼暄学 Python:
-      - python/index.md
-      - 用 Coverage.py 衡量 Python 测试覆盖率: python/coverage.md
-    - GitLab CI:
-      - gitlab/index.md
-      - 用 GitLab CI Artifacts 在 Job 之间共享文件: gitlab/artifacts.md
-    - Bazel:
-      - bazel/index.md
-      - 构建系统基础 | Why Bazel: bazel/build_system.md
-  - 核心知识: 
-    - 核心知识/index.md
-    - 操作系统:
-      - 1 写在前面: 核心知识/os/I_overview/1_intro.md
-      - Part.1 概述: 核心知识/os/I_overview/2_overview.md
-      - Part.2 进程管理:
-        - 3 进程: 核心知识/os/II_process_management/3_process.md
-        - 4 调度: 核心知识/os/II_process_management/4_sched.md
-        - 5 线程: 核心知识/os/II_process_management/5_thread.md
-      - Part.3 进程同步:
-        - 6 同步及其工具: 核心知识/os/III_process_sync/6_sync_tools.md
-        - 7 经典同步问题: 核心知识/os/III_process_sync/7_sync_examples.md
-        - 8 死锁: 核心知识/os/III_process_sync/8_deadlocks.md
-      - Part.4 内存管理:
-        - 9 主存: 核心知识/os/IV_memory_management/9_main_memory.md
-        - 10 虚拟内存: 核心知识/os/IV_memory_management/10_virtual_memory.md
-      - Part.5 存储管理:
-        - 11 大容量存储: 核心知识/os/V_storage_management/11_mass_storage.md
-        - 12 I/O 系统: 核心知识/os/V_storage_management/12_io_systems.md
-      - Part.6 文件系统:
-        - 13 文件系统: 核心知识/os/VI_file_system/13_fs_interface.md
-        - 14 文件系统实现: 核心知识/os/VI_file_system/14_fs_impl.md
-      - 15 总结: 核心知识/os/15_review.md
-    - 计算机组成:
-      - computer_organization/index.md
-      - 1 Prelude: computer_organization/1_prelude.md
-      - 2 Instructions: computer_organization/2_instructions.md
-      - 3 Arithmetic: computer_organization/3_arithmetic.md
-      - 4 Processor: computer_organization/4_processor.md
-      - 5 Cache: computer_organization/5_cache.md
-      - 6 I/O: computer_organization/6_IO.md
-      - 2022 回忆卷: computer_organization/历年卷.md
-    - 编译原理:
-      - compile_principle/index.md
-      - I 词法分析: compile_principle/1 Lexical Analysis.md
-      - II 语法分析 - 自顶向下分析: compile_principle/2 Parsing (I).md
-      - III 语法分析 - 自底向上分析: compile_principle/3 Parsing (II).md
-      - IV 语义分析: compile_principle/4 Semantic Analysis.md
-      - V 运行时环境: compile_principle/5 Runtime Environment.md
-      - VI 代码生成: compile_principle/6 Code Generation.md
-    - 数学、数据结构和算法: 
-      - math_ds_algo/index.md
-      - 入门路线: math_ds_algo/getting_started.md
-      - 动态规划 | Dynamic Programming: math_ds_algo/dp.md
-  - 安全: 
-    - 安全/index.md
-    - 密码学: https://www.yuque.com/xianyuxuan/coding/crypto
-    - 密码学进阶: https://www.yuque.com/xianyuxuan/coding/advcrypto
-    - 软件安全: https://www.yuque.com/xianyuxuan/coding/softwsec
-    - 网络安全原理与实践: https://www.yuque.com/xianyuxuan/coding/netsec
-    - 系统安全: https://www.yuque.com/xianyuxuan/coding/syssec
-    - 无线与物联网安全基础: https://www.yuque.com/xianyuxuan/coding/wireless_iot
-    - 面向信息安全的信号处理: https://www.yuque.com/xianyuxuan/coding/signal_processing
-  # - 语言基础: 语言基础/index.md
+
   - 其他课程: 
     - other_courses/index.md
     - 计算理论: other_courses/theory_of_computation.md
@@ -172,31 +99,11 @@ nav:
   - 妙妙工具:
     - magic_tools/index.md
     - 个税计算器: magic_tools/personal_income_tax.md
-  - 生活:
-    - 生活/index.md
-    - 讨饭历程:
-      - 🏳️‍🌈 总览: interviews/overview.md
-      - 😕 拼多多: interviews/pdd.md
-      - 🤗 美团: interviews/meituan.md
-      - 🤔 蚂蚁: interviews/mayi.md
-      - 👍 华为: interviews/huawei.md
-      - 🥳 字节: interviews/bytedance.md
-      - 👨‍💻 量化相关: interviews/quant.md
-      - 其他: interviews/others.md
-    - 咸鱼暄今天吃什么: 生活/咸鱼暄今天吃什么.md
-    - 我需要一个外置大脑: 生活/我需要一个外置大脑.md
-    - 关于亲密关系的碎碎念: 生活/亲密关系.md
-    - 2022 年终总结: 生活/2022.md
-    - 回顾在信安的三年: 生活/回顾在信安的三年.md
-    - 咸鱼暄的租房记录: 生活/租房记录.md
-    - 桌游: 
-      - 桌游/index.md
-      - 配件相关: 桌游/components.md
   
-site_name: 咸鱼暄的代码空间
-site_url: https://xuan-insr.github.io/
+site_name: jrguo的代码空间
+site_url: https://bugbyteme.github.io/
 repo_name: xuan-insr/咸鱼暄的代码空间
-repo_url: https://github.com/xuan-insr/xuan-insr.github.io
+repo_url: https://github.com/bugByteMe/bugbyteme.github.io
 
 theme:
   name: material
