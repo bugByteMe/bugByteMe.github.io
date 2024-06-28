@@ -5,3 +5,5 @@ rich
 mkdocs-statistics-plugin
 termynal
 neoteroi-mkdocs
+mdx_truly_sane_lists
+mkdocs-glightbox
