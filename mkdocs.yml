@@ -26,12 +26,26 @@ nav:
       - 脱壳: ReverseEngineering/soft-ice 脱壳.md
       - soft-ice: ReverseEngineering/Soft-ice commands
     - Cytography: cytography/review.md
-  
+  - 3D Vision:
+    - ML 4360 Lecture:
+      - Image Formation: ML4360/Lec2(ImageFormation).md
+      - SFM(Structure from Motion): ML4360/Lec3.md
+      - Two-View Stereo Matching: ML4360/Lec4.md
+      - Markov Random Field: ML4360/Lec5(Graphical Models).md
+      - Conditional Random Fields: ML4360/Lec7(Learning in GMs).md
+      - Shape-from-X: ML4360/Lec8(Shape-from-X).md
+      - Implicit Neural Networks: ML4360/Lec9(Implicit neural networks).md
+      - Self-supervised Learning: ML4360/Lec11(Self-Supervised Learning).md
+      - Diverse Topics: ML4360/Lec12 Diverse Topics.md
+      - Wrapup: ML4360/wrapup.md
+    - Paper Reading:
+      - DeVRF: paperreading/DeVRF.md
+      - Temporal-MPI: paperreading/T-MPI.md
 site_name: jrguo的代码空间
 site_url: https://bugbyteme.github.io/
 repo_name: bugByteMe/jrguo的代码空间
 repo_url: https://github.com/bugByteMe/bugbyteme.github.io
-
+use_directory_urls: False
 theme:
   name: material
   logo: logo.ico
@@ -89,6 +103,8 @@ markdown_extensions:
   - neoteroi.timeline
   - pymdownx.arithmatex:
       generic: true
+      inline_syntax: ['dollar']
+      smart_dollar: false
   - pymdownx.betterem:
       # smart_enable: all
   - pymdownx.caret
