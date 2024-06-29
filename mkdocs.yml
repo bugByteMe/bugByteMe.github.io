@@ -1,8 +1,6 @@
 nav:
   - 🏡 主页: # 主页/
     - index.md
-    - ❤️ 关于我: 主页/about.md
-    - 📆 最近更新: recent.md
     # - 🌈 颜色主题 & 夜间模式: 主页/theme.md
   - ADS:
     - AVL/Splay: ads/Lec01.md
@@ -18,13 +16,30 @@ nav:
     - Randomized Algorithm: ads/Lec13.md
     - Parallel Algorithm: ads/Lec15.md
     - HomeWorks: ads/HWs.md
+    - Finals:
+      - 2021-2022 Final: ads/21-22.html
+      - 2022-2023 Final: ads/22-23.html
+      - 2023-2024 Final:
+        - True or False: ads/23-24/23-24TF.html
+        - Choice: ads/23-24/23-24Choice.html
+        - Fill in the blank: ads/23-24/23-24Blank.html
+        - Function: ads/23-24/23-24Function.html
+  - C++:
+    - Class: note-oop/Class.md
+    - Copy Constructor: note-oop/CopyCtor.md
+    - Composition and Inheritance: note-oop/Composition and Inheritance.md
+    - Polymorphism: note-oop/Polymorphism.md
+    - Templates: note-oop/Templates.md
+    - Iterators: note-oop/Iterators.md
+    - Exceptions: note-oop/Exception.md
+    - Pitfalls and Fallacies: note-oop/Pitfalls and Fallacies.md
   - Security:
     - Assembly (8086): asm/review.md
     - Reverse Engineering (16 bit):
       - Windows EXE: ReverseEngineering/Windows EXE.md
       - DOS EXE: ReverseEngineering/DOS EXE.md
       - 脱壳: ReverseEngineering/soft-ice 脱壳.md
-      - soft-ice: ReverseEngineering/Soft-ice commands
+      - soft-ice: ReverseEngineering/Soft-ice commands.md
     - Cytography: cytography/review.md
   - 3D Vision:
     - ML 4360 Lecture:
@@ -82,7 +97,7 @@ theme:
   # font:
   #   text: Noto Serif SC # Roboto
   #   code: Roboto Mono
-  custom_dir: overrides # 用来搞评论的，参考 https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
+  # custom_dir: overrides # 用来搞评论的，参考 https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
 
 edit_uri: ""
 
