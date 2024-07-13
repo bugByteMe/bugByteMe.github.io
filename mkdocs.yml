@@ -56,6 +56,13 @@ nav:
     - Paper Reading:
       - DeVRF: paperreading/DeVRF.md
       - Temporal-MPI: paperreading/T-MPI.md
+
+  - Sparse Solver:
+    - CSR format: sparse_solver/note.md
+    - BICG Iterative Method: sparse_solver/BICG.md
+    - cuSOLVER: sparse_solver/cuSOLVER.md
+    - Intel dcg SOLVER: sparse_solver/MKL dcg.md
+
 site_name: jrguo的代码空间
 site_url: https://bugbyteme.github.io/
 repo_name: bugByteMe/jrguo的代码空间
